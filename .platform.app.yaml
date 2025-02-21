@@ -13,8 +13,8 @@ web:
   locations:
     "/":
       passthru: true
-    "static":
-      root: "/static"
+    "/static":
+      root: "static"
       expires: 1h
       allow: true
 
